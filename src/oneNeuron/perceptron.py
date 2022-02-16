@@ -1,10 +1,5 @@
-import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
-import joblib # FOR SAVING MY MODEL AS A BINARY FILE
-from matplotlib.colors import ListedColormap
 import logging
-import os
 class Perceptron:
   def __init__(self, eta, epochs):
     self.weights = np.random.randn(3) * 1e-4 # SMALL WEIGHT INIT
